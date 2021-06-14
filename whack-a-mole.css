@@ -1,7 +1,6 @@
 body {
     flex-basis: 100%;
     background-image: url(./whack.png);
-    /* background-color: black; */
     background-size: cover;
     background-clip: content-box;
     background-repeat: no-repeat;
