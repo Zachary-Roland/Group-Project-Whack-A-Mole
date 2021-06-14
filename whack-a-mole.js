@@ -7,7 +7,7 @@ let timer = 29
 let start = document.getElementById("start");
 let moleHoles = document.querySelectorAll(".hole")
 let moles = document.querySelectorAll(".mole");
-start.addEventListener("click", (e) => { 
+start.addEventListener("click", () => { 
     start.classList.add("hideStart")
     let timeLeft = window.setInterval(()=>{
         document.getElementById("timeLeft").innerText = timer;
