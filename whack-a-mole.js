@@ -23,7 +23,7 @@ start.addEventListener("click", (e) => {
         window.clearInterval(timeLeft);
         start.classList.remove("hideStart");
         score = 1
-        document.getElementById("timeLeft").innerText = 10;
+        document.getElementById("timeLeft").innerText = 30;
         timer = 29
     }, 31005);
 })
